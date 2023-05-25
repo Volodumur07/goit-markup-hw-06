@@ -470,7 +470,9 @@ body {
     visibility var(--transition-duration-and-func);
 }
 .modal {
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 72px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -514,6 +516,64 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+/* ================FROM-INPUT===================== */
+.contact-form-text{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 16px;
+}
+.contact-form-field-wrapper,
+.contact-form-checkbox-wrapper{
+  display: block;
+  margin-bottom: 8px;
+}
+.contact-form-field-desc{
+  display: block;
+  font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+.contact-form-input{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #4D5AE5;
+    border-radius: 4px;
+    padding-left: 38px;
+}
+.contact-form-checkbox-text{
+  font-size: 12px;
+    line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+   flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.container-btn-submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form-btn-submit{
+  width: 169px;
+    height: 56px;
+background: #4D5AE5;
+color: WHITE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.contact-form-btn-submit:hover,
+.contact-form-btn-submit:focus{
+  background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 /*=============== PAGE PORTFOLIO==================== */
 /* =====SECTION BUTTON===== */
