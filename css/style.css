@@ -727,7 +727,7 @@ fill: #FFFFFF;
   outline: 1px solid #404BBF;
 
 } */
-.contact-form-checkbox:checked + .contact-form-checkbox-span{
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-checkbox-span{
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
