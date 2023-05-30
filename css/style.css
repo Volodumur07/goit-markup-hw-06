@@ -729,7 +729,7 @@ fill: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form-btn-submit:hover,
 .contact-form-btn-submit:focus{
