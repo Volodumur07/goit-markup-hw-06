@@ -508,29 +508,38 @@
               </svg>
             </div>
           </div>
+          <div class="contact-form-container">
+            <label class="contact-form-field-wrapper" for="user-comment">Comment</label>
 
-          <label class="contact-form-field-wrapper" for="user-message">Comment</label>
+            <textarea
+              class="contact-form-message"
+              id="user-comment"
+              name="user-message"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="contact-form-container">
+            <input
+              class="contact-form-checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              required
+            />
+            <label class="contact-form-checkbox-wrapper" for="user-privacy"></label>
+            <span class="contact-form-checkbox-text">
+              I accept the terms and conditions of the
+              <span><a class="contac-form-checkbox-link" href=""> Privacy Policy</a></span></span
+            >
 
-          <textarea
-            class="contact-form-message"
-            id="user-message"
-            name="user-message"
-            placeholder="Text input"
-          ></textarea>
-
-          <label class="contact-form-checkbox-wrapper">
-            <input class="contact-form-checkbox" type="checkbox" name="user_policy" required />
             <svg class="contact-form-own-checkbox" width="16px" height="16px">
               <use
                 class="contact-form-checkmark-icon"
                 href="./images/icons.svg#icon-checkmark"
               ></use>
             </svg>
-            <span class="contact-form-checkbox-text">
-              I accept the terms and conditions of the
-              <span><a class="contac-form-checkbox-link" href=""> Privacy Policy</a></span></span
-            >
-          </label>
+          </div>
           <div class="container-btn-submit">
             <button type="submit" class="contact-form-btn-submit">Send</button>
           </div>
