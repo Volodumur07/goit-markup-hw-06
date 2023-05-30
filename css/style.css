@@ -604,6 +604,17 @@ body {
     color: #2E2F42;
     margin-bottom: 16px;
 }
+.contact-form-container{
+  margin-bottom: 8px;
+}
+.contact-form-field-wrapper{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color:#8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
 .contact-form-field-wrapper,
 .contact-form-checkbox-wrapper{
   display: block;
@@ -615,11 +626,7 @@ body {
 }
 .contact-form-field-desc{
   display: block;
-  font-size: 12px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 .contact-form-input{
   width: 100%;
