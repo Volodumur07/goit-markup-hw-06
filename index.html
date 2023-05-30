@@ -508,17 +508,17 @@
               </svg>
             </div>
           </div>
-          <div class="contact-form-container">
+          <div class="contact-form-container-comment">
             <label class="contact-form-field-wrapper" for="user-comment">Comment</label>
 
             <textarea
               class="contact-form-message"
               id="user-comment"
-              name="user-message"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="contact-form-container">
+          <div class="contact-form-container-checkbox">
             <input
               class="contact-form-checkbox visually-hidden"
               type="checkbox"
@@ -527,22 +527,23 @@
               value="true"
               required
             />
-            <label class="contact-form-checkbox-wrapper" for="user-privacy"></label>
-            <span class="contact-form-checkbox-text">
-              I accept the terms and conditions of the
-              <span><a class="contac-form-checkbox-link" href=""> Privacy Policy</a></span></span
-            >
+            <label class="contact-form-checkbox-wrapper" for="user-privacy"
+              >I accept the terms and conditions of the
+              <span class="contact-form-checkbox-span">
+                <svg class="contact-form-own-checkbox" width="10" height="8">
+                  <use
+                    class="contact-form-checkmark-icon"
+                    href="./images/icons.svg#icon-checkmark"
+                  ></use>
+                </svg>
+              </span>
 
-            <svg class="contact-form-own-checkbox" width="16px" height="16px">
-              <use
-                class="contact-form-checkmark-icon"
-                href="./images/icons.svg#icon-checkmark"
-              ></use>
-            </svg>
+              <a class="contac-form-checkbox-link" href=""> Privacy Policy</a>
+            </label>
           </div>
-          <div class="container-btn-submit">
-            <button type="submit" class="contact-form-btn-submit">Send</button>
-          </div>
+          <!-- <div class="container-btn-submit"> -->
+          <button type="submit" class="contact-form-btn-submit">Send</button>
+          <!-- </div> -->
         </form>
       </div>
     </div>
