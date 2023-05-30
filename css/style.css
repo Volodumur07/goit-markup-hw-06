@@ -469,12 +469,9 @@ body {
 }
 .footer-form{
   display: flex;
-  gap: 24px;
-}
-.input-button-wrapper{
-  display: flex;
   justify-content: center;
-  align-items: center;
+    align-items: center;
+  gap: 24px;
 }
 .footer-form-input{
   width:264px;
