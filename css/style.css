@@ -455,6 +455,78 @@ body {
 .social-icon-footer {
   fill: #f4f4fd;
 }
+/* ====================FOOTER-FORM========= */
+.contaner-footer-form{
+  margin-left: 80px;
+}
+.footer-form-text{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.input-button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-form-input{
+  width:264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  opacity: 1;
+  background: #2E2F42;
+  border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 12px;
+      line-height: 2;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.04em;
+    color: #FFFFFF;
+    outline: none;
+}
+.footer-form-input:hover,
+.footer-form-input:focus{
+  border: 1px solid #4D5AE5;
+    border-radius: 4px;
+}
+.footer-form-input::placeholder{
+  font-size: 12px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:#FFFFFF;
+}
+.footer-form-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 165px;
+  background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 24px;
+    outline: none;
+}
+.footer-form-button:hover,
+.footer-form-button:focus{
+  background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.footer-form-button-icon{
+  width: 20px;
+  height: 24px;
+}
 /* =====================BACKDROP===================================== */
 .backdrop {
   position: fixed;

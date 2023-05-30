@@ -423,10 +423,33 @@
             </li>
           </ul>
         </div>
+        <!-- =============FOOTER FORM INPUT+BUTTON================ -->
+        <div class="contaner-footer-form">
+          <form class="footer-form">
+            <p class="footer-form-text">Subscribe</p>
+            <div class="input-button-wrapper">
+              <label class="footer-form-field-wrapper">
+                <input
+                  class="footer-form-input"
+                  type="email"
+                  name="user_name"
+                  required
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-form-button">
+                Subscribe
+                <svg class="footer-form-button-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- =======================BACKDROP================================ -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
